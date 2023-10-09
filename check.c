@@ -8,8 +8,9 @@ void main()
   clrscr();
 
   cout<<"\n\t\t\tEnter any number : ";
+  cin>>a;
 
-  if(a/2=0)
+  if(a%2==0)
   {
     cout<<"\n\t\t\tEven number";
   }
