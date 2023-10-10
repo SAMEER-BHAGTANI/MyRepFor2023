@@ -10,14 +10,7 @@ void main()
   cout<<"\n\t\t\tEnter any number : ";
   cin>>a;
 
-  if(a%2==0)
-  {
-    cout<<"\n\t\t\tEven number";
-  }
-  else
-  {
-    cout<<"\n\t\t\tOdd number";
-  }
+  a%2==0?cout<<"\n\t\t\tEven number":cout<<"\n\t\t\tOdd number";
 
   getch();
 }
