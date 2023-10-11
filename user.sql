@@ -2,7 +2,7 @@ create database sam;
 
 use sam;
 
-create table users(u_id int(10) PRIMARY KEY, username char(25), password char(50));
+create table if not exists users(u_id int(10) PRIMARY KEY, username char(25), password char(50));
 
 insert into users values(1,"Raman","Hello@123");
 insert into users values(2,"Anup","123456");
